@@ -66,7 +66,7 @@ maxiteration=10000;
 
 
 
-%backpropagation algorithm implemantation
+%backpropagation algorithm implementation
 while error>epsilon  && (maxiteration>iteration)
    iteration= iteration+1;
     d_W=zeros(H,I);
